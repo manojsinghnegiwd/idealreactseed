@@ -4,7 +4,8 @@
   "description": "The ideal react seed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "less-loader": "^4.0.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "redux": "^3.7.2",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
