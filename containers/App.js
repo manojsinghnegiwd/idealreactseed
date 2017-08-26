@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import InputPreview from '../components/InputPreview';
 import {connect} from 'react-redux';
-import {setMesssage} from '../actions/message';
+import {setMessage} from '../actions/message';
 
 class App extends Component {
 
