@@ -6,6 +6,7 @@ export default class InputPreview extends React.Component {
 			<div>
 				<input
 					type="text"
+					value={this.props.value}
 					/>
 			</div>
 		)

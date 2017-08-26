@@ -1,7 +1,17 @@
 import React, {Component} from 'react';
+import InputPreview from '../components/InputPreview';
+import {connect} from 'react-redux';
 
-export default class App extends Component {
+class App extends Component {
     render () {
-        return <p>This is my new react app</p>
+
+    	const {message} = this.props.messageReducer;
+
+        return (
+        	<InputPreview
+        		value={message}/>
+        )
     }
 }
+
+export default connect(state => state)(App);
